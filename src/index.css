@@ -1,0 +1,43 @@
+.color-picker-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.color-picker-title{
+    font-size: 3rem;
+    font-family: sans-serif;
+    margin: 50px;
+}
+
+.color-display{
+    display: flex;
+    width: 250px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    border: 7px solid hsla(341, 0%, 48%, 1);
+    border-radius: 10px;
+    transition: 0.15s ease;
+    margin-bottom: 25px;
+}
+
+.selected-color{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.select-color-label{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+.color-picker-input{
+    width: 70px;
+    height: 45px;
+    border: 2px solid hsla(341, 0%, 48%, 1);
+    border-radius: 5px;
+    padding: 5px;
+}
